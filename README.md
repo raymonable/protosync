@@ -19,6 +19,8 @@ Also, Roblox & Roblox Studio installed on your computer.
 4. Use `npm i` to install the necessary packages (or `express` & `localtunnel` if that doesn't install properly)
 5. Run `node protosync` to start ProtoSYNC.
 
+Make sure you copy ProtoSYNC.lua to your Roblox Studio's Plugins Folder.
+
 ### Version
 
 This is Version 1 of ProtoSYNC. This branch should not be modified.
