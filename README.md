@@ -16,10 +16,9 @@ Also, Roblox & Roblox Studio installed on your computer.
 1. Download the master zip of the repository
 2. Unzip it, and place it somewhere safe
 3. Open a terminal window in the directory that you unzipped
-4. Use `npm i` to install the necessary packages (or `express`, `superagent` & `localtunnel` if that doesn't install properly)
+4. Use `npm i` to install the necessary packages (or `express` & `localtunnel` if that doesn't install properly)
 5. Run `node protosync` to start ProtoSYNC.
 
-### Important
-ProtoSYNC expects for your Roblox installation to be in `%localappdata%\Roblox`. It will automatically attempt to import the plugin into your Plugins folder & then ask to restart Roblox Studio.
+### Version
 
-If it is not in there, you will be prompted to manually install the plugin into your Plugins Folder in Roblox Studio.
+This is Version 1 of ProtoSYNC. This branch should not be modified.
