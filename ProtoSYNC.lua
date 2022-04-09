@@ -7,7 +7,7 @@ end
 local port = plugin:GetSetting('ProtoPORT')
 if not port then
 	plugin:SetSetting('ProtoPORT', 4400)
-	print('ProtoPORT has been set to 4400. This can be changed later.')
+	print('ProtoPORT has been set to 4400. This can\'t be changed later.')
 end
 
 local tunnelinfo = DockWidgetPluginGuiInfo.new(Enum.InitialDockState.Float, true, false, 150, 150, 150, 150)
