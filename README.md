@@ -18,10 +18,17 @@ Also, Roblox & Roblox Studio installed on your computer.
 1. Download the master zip of the repository
 2. Unzip it, and place it somewhere safe
 3. Open a terminal window in the directory that you unzipped
-4. Use `npm i` to install the necessary packages (or `express`, `superagent` & `localtunnel` if that doesn't install properly)
+4. Use `npm i` to install the necessary packages (or `express` & `localtunnel` if that doesn't install properly)
 5. Run `node protosync` to start ProtoSYNC.
 
-### Important
-ProtoSYNC expects for your Roblox installation to be in `%localappdata%\Roblox`. It will automatically attempt to import the plugin into your Plugins folder & then ask to restart Roblox Studio.
+(Check the next tab for more info on installing the plugin)
 
-If it is not in there, you will be prompted to manually install the plugin into your Plugins Folder in Roblox Studio.
+### Safety
+
+It is recommended that you change the password for your script's safety. To do so, open up the `protosync.js` file and go to the Configuration table. Change the password from 'soup' to something else. You don't need to remember it, to be honest. Make sure you save the file, and double check your server still starts successfully.
+
+Then, open up an empty Roblox Studio baseplate and drag the `ProtoSYNC V2.0.0.rbxm` file in. Open ProtoSYNC > Primary and then change the `password` variable to the same thing you put for the `protosync.js` file. If it's not the same, the server won't accept it. 
+
+Finally, you can right click on the ProtoSYNC folder in Studio and "Save as Local Plugin". Press Save when it prompts (and overwrite if it prompts too), and you should be all set.
+
+.. This process will likely be changed in the future.
