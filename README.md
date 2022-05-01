@@ -13,12 +13,16 @@ This only requires Internet access and Node.js v16.x.x or newer.
 
 Also, Roblox & Roblox Studio installed on your computer.
 
+### Important Privacy Notice
+
+If for whatever reason you're using a version downloaded from before 5/1/2022, please re-download immediately! Otherwise, you may be at risk of getting your IP leaked because localtunnel is fucking stupid.
+
 ### Usage
 
 1. Download the master zip of the repository
 2. Unzip it, and place it somewhere safe
 3. Open a terminal window in the directory that you unzipped
-4. Use `npm i` to install the necessary packages (or `express` & `localtunnel` if that doesn't install properly)
+4. Use `npm i` to install the necessary packages (or `express`, `uuid` & `localtunnel` if that doesn't install properly)
 5. Run `node protosync` to start ProtoSYNC.
 
 (Check the next tab for more info on installing the plugin)
