@@ -2,6 +2,7 @@ console.log('ProtoSYNC V2.0');
 
 const Express = require('express');
 const Tunnel = require('localtunnel');
+const { v4 } = require('uuid')
 var App = Express();
 App.use(Express.json());
 
@@ -17,7 +18,8 @@ var LoggedUsers = {};
 
 var ProtoTunnel = () => {
     Tunnel({
-        port: 4400
+        port: 4400,
+        subdomain: v4(), // Patch IP leak vuln
     }).then((tunnel) => {
         console.log('ProtoTUNNEL ready');
         URL = tunnel.url;
