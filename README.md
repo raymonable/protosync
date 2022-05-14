@@ -1,11 +1,10 @@
-# protosync
-A Roblox Studio plugin to assist with large scripts in Void Script Builder.
 <h1 align="center">
   ProtoSYNC
 </h1>
 <h3 align="center"> Large amounts of code? No problem. </h3>
 
 ### Introduction
+Designed for Void Script Builder, 
 ProtoSYNC allows you to transport large amounts of lua to a secret server to get around the pesky character limit supplied by Roblox's Textbox solution.
 
 ### Requirements
